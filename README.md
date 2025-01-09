@@ -26,3 +26,34 @@ Logout: Logs out of the application cleanly.
 
 Deletion Verification: Re-logs into the application and verifies whether the package is deleted.
 
+Prerequisites
+
+Install Python 3.x.
+
+Install the required dependencies using the following command:
+
+pip install selenium
+
+Download the ChromeDriver executable that matches your Google Chrome version and add it to your system PATH.
+
+Steps to Execute
+
+Clone or download this repository.
+
+Open a terminal in the project directory.
+
+Run the script using the command:
+
+python selenium_automation.py
+
+Observe the console output for the test results:
+
+Confirmation of package addition.
+
+Confirmation of successful logout.
+
+Verification of package deletion.
+
+The browser will close automatically after the test completes.
+
+
